@@ -1,7 +1,6 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -20,5 +19,14 @@
     "fluent-ffmpeg": "^2.1.2",
     "libsodium-wrappers": "^0.7.9",
     "ytdl-core": "^4.10.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sohambee/discord-workshop-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sohambee/discord-workshop-bot/issues"
+  },
+  "homepage": "https://github.com/Sohambee/discord-workshop-bot#readme",
+  "description": ""
 }
