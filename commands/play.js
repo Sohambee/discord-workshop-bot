@@ -1,7 +1,7 @@
 const { YOUTUBE } = require('../token')
 const ytdl = require('ytdl-core');
-const YouTube = require("discord-youtube-api") //After
-const youtube = new YouTube(YOUTUBE) //After
+const YouTube = require("discord-youtube-api") 
+const youtube = new YouTube(YOUTUBE) 
 const { createAudioResource, createAudioPlayer, joinVoiceChannel } = require('@discordjs/voice');
 
 module.exports = {
